@@ -20,8 +20,16 @@ public class HomeController : Controller
         {
             products = products.Where(p => p.CategoryId == int.Parse(category)).ToList();
         }
-        ViewBag.Categories = new SelectList(Repository.GetCategories, "CategoryId", "CategoryName");
-        return View(products);
+
+        //ViewBag.Categories = new SelectList(Repository.GetCategories, "CategoryId", "CategoryName", category);
+
+        var model = new ProductViewModel
+        {
+            Products = products,
+            Categories = Repository.GetCategories,
+            SelectedCategory = category
+        };
+        return View(model);
     }
 
     public IActionResult Privacy()

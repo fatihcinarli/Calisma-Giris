@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bu/m+Db/rUA=",
+  "dgSpecHash": "Pu9yCfa3wqn5oVf+A0AcHa3fw56ERRE+Sh9jkLmh9jjCq39Ta74rFbK1WwwtTcdF4LhX+41xKhUO9EzHvpgJYw==",
   "success": true,
-  "projectFilePath": "/Users/fatihcinarli/Desktop/FormApp/FormApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/fatih/Masaüstü/Calisma-Giris/FormApp.csproj",
+  "expectedPackageFiles": [
+    "/home/fatih/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

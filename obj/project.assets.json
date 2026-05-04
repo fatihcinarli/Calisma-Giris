@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/fatihcinarli/.nuget/packages/": {}
+    "/home/fatih/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fatihcinarli/Desktop/FormApp/FormApp.csproj",
+      "projectUniqueName": "/home/fatih/Masaüstü/Calisma-Giris/FormApp.csproj",
       "projectName": "FormApp",
-      "projectPath": "/Users/fatihcinarli/Desktop/FormApp/FormApp.csproj",
-      "packagesPath": "/Users/fatihcinarli/.nuget/packages/",
-      "outputPath": "/Users/fatihcinarli/Desktop/FormApp/obj/",
+      "projectPath": "/home/fatih/Masaüstü/Calisma-Giris/FormApp.csproj",
+      "packagesPath": "/home/fatih/.nuget/packages/",
+      "outputPath": "/home/fatih/Masaüstü/Calisma-Giris/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/fatihcinarli/.nuget/NuGet/NuGet.Config"
+        "/home/fatih/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,6 +54,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.25, 8.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -67,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.420/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
