@@ -17,7 +17,6 @@ namespace FormApp.Models
         [Display(Name ="Urun Fiyatı")]
         public decimal Price { get; set; }
 
-        [Required]
         [Display(Name ="Urun Resmi")]
         public string? Image { get; set; }
 
