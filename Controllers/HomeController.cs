@@ -100,19 +100,24 @@ public class HomeController : Controller
         }
         if(ModelState.IsValid)
         {
-            var extension = Path.GetExtension(imageFile.FileName); // Doysa uzantısını ayırma
-            var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extension}");
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
-
             if(imageFile != null)
             {
+                var extension = Path.GetExtension(imageFile.FileName); // Doysa uzantısını ayırma
+            var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extension}");
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
                 using(var stream = new FileStream(path, FileMode.Create))
                 {
                     await imageFile.CopyToAsync(stream);
                 }
+                model.Image = randomFileName;
             }
-            
+
+            Repository.EditProduct(model);
+            return RedirectToAction("Index");
         }
-        return View();
+         ViewBag.Categories = new SelectList(Repository.GetCategories, "CategoryId", "CategoryName");
+            return View(model);
     }
+
+
 }
