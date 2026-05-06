@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cTI+uMGvPPuexSwT6fYVQBtncncWeOv6Bm6FfVZFCIM=",
+  "Hash": "UhIZJSz8Xx9Hl/XGOUyAQeTr8rTRm1BW/NPyIE0JXDU=",
   "Source": "FormApp",
   "BasePath": "_content/FormApp",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/pro.jpg"
+    },
+    {
+      "Identity": "/home/fatih/Masaüstü/Calisma-Giris/wwwroot/img/s21.jpg",
+      "SourceId": "FormApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/fatih/Masaüstü/Calisma-Giris/wwwroot/",
+      "BasePath": "_content/FormApp",
+      "RelativePath": "img/s21.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/s21.jpg"
     },
     {
       "Identity": "/home/fatih/Masaüstü/Calisma-Giris/wwwroot/img/samsung_s25_u.jpg",

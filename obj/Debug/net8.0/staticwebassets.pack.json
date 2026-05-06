@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/img/pro.jpg"
     },
     {
+      "Id": "/home/fatih/Masaüstü/Calisma-Giris/wwwroot/img/s21.jpg",
+      "PackagePath": "staticwebassets/img/s21.jpg"
+    },
+    {
       "Id": "/home/fatih/Masaüstü/Calisma-Giris/wwwroot/img/samsung_s25_u.jpg",
       "PackagePath": "staticwebassets/img/samsung_s25_u.jpg"
     },

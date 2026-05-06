@@ -34,6 +34,8 @@ namespace FormApp.Models
 
         public static void CreateProduct(Product entity)
         {
+            int idControl = _product.Count();
+            entity.ProductId = idControl + 1;
             _product.Add(entity);
         }
     }
